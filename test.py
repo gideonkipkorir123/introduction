@@ -1,0 +1,5 @@
+student_name=input("Enter your fulll name : ")
+print("your name is : ",student_name)
+#admission=int(input("enter your admission : "))
+adm=input("enter your reg number")
+print("Your full details are"+student_name,adm)
