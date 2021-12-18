@@ -32,6 +32,7 @@ list1.reverse()
 # print(sorted(list1))
 print('sorted list',list1)
 
+# tuples are immutable that means they cannot be appended
 tuple1 = (1,2,4,3,6,5,7) # This is a tuple
 tuple2 = (4,)
 print('Tuple1: ',tuple1)
