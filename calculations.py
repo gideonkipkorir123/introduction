@@ -4,5 +4,8 @@
 
 # print(bmi(52.5, 1.65))
 def calculations(metres,centimetres):
+    if metres>100 and metres<1000\
+        or centimetres>13 and centimetres<100:
+        return None
     return metres/centimetres
-print (calculations(1,1000))
+print (calculations(20000,120))
