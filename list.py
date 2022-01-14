@@ -1,7 +1,7 @@
-numbers = []
-for x in range [5]:
-    numbers.append(x+1)
-    print(numbers)
+# numbers = []
+# for x in range [5]:
+#     numbers.append(x+1)
+#     print(numbers)
 
 # print("List content:", numbers)  # Printing original list content.
 # numbers.append(4) #adds at the end of a list
@@ -41,3 +41,6 @@ for x in range [5]:
 # tuple2 = (4,)
 # print('Tuple1: ',tuple1)
 
+tuple=(1,2,3,4,5,6,7,8,9)
+tuple2=(0,345)
+print(tuple,tuple2)
