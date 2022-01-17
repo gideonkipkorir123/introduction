@@ -3,6 +3,7 @@ def fib(n):
         return None
     if n <3:
         return 1
+        
     num_1=num_2=1
     sum_1=0
     for n in range (3, n+1):
@@ -11,7 +12,7 @@ def fib(n):
     return sum_1
         
 for n in range  (1,10):
-    print (n,fib(n))
+    print (n, 'and its fibonnnacii is',fib(n))
     
 
 
