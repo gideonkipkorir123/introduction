@@ -18,7 +18,7 @@ def testing(n):
         return None
     if n <2:
         return 1
-    product=1
+    product=3
     for i in range (2,n+1):
         product*=i
         return product
