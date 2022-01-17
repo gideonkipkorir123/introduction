@@ -1,5 +1,5 @@
 def fib(n):
-    if n <1:
+    if n ==1:
         return None
     if n <3:
         return 1
