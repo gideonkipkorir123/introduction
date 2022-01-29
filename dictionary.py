@@ -6,5 +6,12 @@
 # a dictionary is not a list - a list contains a set of numbered values, while a dictionary holds pairs of values;
 # the len() function works for dictionaries, too - it returns the numbers of key-value elements in the dictionary;
 # a dictionary is a one-way tool - if you have an English-French dictionary, you can look for French equivalents of English terms, but not vice versa.
-student={'department':'electrical','class:':'electrical engineering','yr':5}
-print(student['department'],['yr'])
+# student={'department':'electrical','class:':'electrical engineering','yr':5}
+# for key in student.keys():
+#     print(key,'',student[key])
+# cars={'model:':'mitsubishi','year':1889,'licenced' :'yes'}
+# for key in cars.keys():
+    # print(key,'=',cars[key])
+computer={'model':'toshiba','year':1510,'owner':'student'}
+for key in computer.keys():
+    print(key,'=',computer[key])
