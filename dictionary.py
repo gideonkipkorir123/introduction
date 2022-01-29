@@ -7,4 +7,4 @@
 # the len() function works for dictionaries, too - it returns the numbers of key-value elements in the dictionary;
 # a dictionary is a one-way tool - if you have an English-French dictionary, you can look for French equivalents of English terms, but not vice versa.
 student={'department':'electrical','class:':'electrical engineering','yr':5}
-print(student)
+print(student['department'],['yr'])
