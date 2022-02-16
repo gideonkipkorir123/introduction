@@ -9,7 +9,7 @@ while(age>0) and age<=100:
         elif (age>=21) and age<=35:
             print('you are an adult')
         elif(age>=36) and age<=100:
-            print('you are old')
+            print('you are old') 
         else:
              print('enter a valid age')   
     miaka()

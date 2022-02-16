@@ -12,12 +12,20 @@
 # cars={'model:':'mitsubishi','year':1889,'licenced' :'yes'}
 # for key in cars.keys():
     # print(key,'=',cars[key])
-computer={'model':'bravia','year':1510,'owner':'student'}
-computer['model']='toshiba'
-computer['year']=2000
-computer.update({'faultiness':'no'}) 
-# you can add more characters in a dictionary
-# del computer['faultiness'] 'deleteing an item'
-for key in sorted (computer.keys()):
+# computer={'model':'bravia','year':1510,'owner':'student'}
+# computer['model']='toshiba'
+# computer['year']=2000
+# computer.update({'faultiness':'no'}) 
+# # you can add more characters in a dictionary
+# # del computer['faultiness'] 'deleteing an item'
+# for key in sorted (computer.keys()):
     
-    print(key,'=',computer[key])
+#     print(key,'=',computer[key])
+
+month_conversions={
+"jan":"janauary",
+"Feb":"february",
+"mar":"march"
+
+}
+print(month_conversions.get('ap','not valid'))

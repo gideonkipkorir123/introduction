@@ -18,29 +18,40 @@
 # print(numbers[len(numbers)//2]) #to print the middle element in a list
 # print(numbers[::-1]) #To reverse a list
 
-# list1 = [1,2,4,3,5,6,7]
-# # list1.reverse()
-# print(list1)
-# list2 = []
-# list3 = []
-# for i in list1:
-#     if i%2 == 0:
-#         list2.append(i)
-#     else:
-#         list3.append(i)
+list1 = [1,2,4,3,5,6,7]
+# list1.reverse()
+print(list1)
+list2 = []
+list3 = []
+for i in list1:
+    if i%2 == 0:
+        list2.append(i)
+    else:
+        list3.append(i)
 
-# print(list2)
-# print(list3)
+
+list2.extend(list3)
+print(list2)
+print(list3)
 # list1.sort()
 # list1.reverse()
 # # print(sorted(list1))
 # print('sorted list',list1)
 
-# # tuples are immutable that means they cannot be appended
+# tuples are immutable that means they cannot be appended
 # tuple1 = (1,2,4,3,6,5,7) # This is a tuple
 # tuple2 = (4,)
 # print('Tuple1: ',tuple1)
 
-tuple=(1,2,3,4,5,6,7,8,9)
-tuple2=(0,345)
-print(tuple,tuple2)
+# tuple=(1,2,3,4,5,6,7,8,9)
+# tuple2=(0,345)
+# print(tuple,tuple2)
+# pop actually removes ther last item in a list
+student=['mike','silvia','kimaiyo']
+student.pop()
+print(student)
+print(student.index('mike'))
+print(student.count('mike'))
+student2=student.copy()
+print(student2)
+print(len(student2))
