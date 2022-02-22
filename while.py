@@ -4,23 +4,28 @@
 #     x+=1
 # else:
 #     print('done')    
-secret_word="girrrafe"
-guess=""
-guess_count=0
-guess_limit=3
-out_of_game=False
+def loping():
+
+    secret_word="girrafe"
+    guess=""
+    guess_count=0
+    guess_limit=3
+    out_of_game=False
 
 
-while guess !=secret_word and not (out_of_game):
-    if guess_count<guess_limit:
+    while guess !=secret_word and not (out_of_game):
+        if guess_count<guess_limit:
 
 
-        guess=input("enter a word :")
-        guess_count+=1
+            guess=input("enter a word :")
+            guess_count+=1
+        else:
+                out_of_game=True
 
-else: 
-    out_of_game=True
-if guess_limit:
-    print('you lost')
-else:
-    print('you are a winner')    
+    if out_of_game:
+        print('you lost')
+    else:
+        secret_word="giraffe"
+
+        print('you are a winner')    
+loping()        
