@@ -17,7 +17,12 @@ class Engineering:
       self.name=name
       self.marks=marks
       self.course=course
-from student import Engineering
-Electrical=Engineering("mike",23,"mechanical")
-print(Electrical.name)
-      
+   def pass_list(self):
+      if self.marks>=3.5:
+         return True
+      else:
+           return False
+         
+
+
+         

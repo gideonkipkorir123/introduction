@@ -22,10 +22,25 @@
     
 #     print(key,'=',computer[key])
 
-month_conversions={
-"jan":"janauary",
-"Feb":"february",
-"mar":"march"
+# month_conversions={
+# "jan":"janauary",
+# "Feb":"february",
+# "mar":"march"
 
-}
-print(month_conversions.get('ap','not valid'))
+# }
+# print(month_conversions.get('ap','not valid'))
+student=dict(name="gideon",age=90,street="newyork")
+print(student) 
+# keyss=student["name"]
+# print(keyss)
+# student["email"]="xyz@gmail.com"
+# print(student)
+# student.pop("name")
+# print(student)
+# print(len(student.keys()))
+# try:
+#    print(student["last name"])
+# except:
+#     print("error")
+for keys in student:
+    print(keys)
