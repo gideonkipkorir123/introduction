@@ -42,5 +42,15 @@ print(student)
 #    print(student["last name"])
 # except:
 #     print("error")
-for keys in student:
-    print(keys)
+# for keys in student:
+#     print(keys)
+# for values in student:
+#     print(keys,values)    
+class2=student.copy()
+print(class2)    
+student["home"]="newyork"
+student.pop("street")
+
+print(student)
+value=student["name"]
+print(value)
